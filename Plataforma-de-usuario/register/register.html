@@ -12,7 +12,7 @@
     <title>Title</title>
 </head>
 
-<body class="the-bg">
+<body onload="load()" class="the-bg"> 
     <!------ Include the above in your HEAD tag ---------->
     <div class="mt-4 mb-4 container">
         <div class="row justify-content-center">
@@ -23,11 +23,11 @@
                         <h4 class="card-title mt-2">Sign up</h4>
                     </header>
                     <article class="card-body">
-                        <form>
+                        <form action="https://formspree.io/mrgagpok" method="POST">
                             <div class="form-row">
                                 <div class="col form-group">
                                     <label>First name </label>
-                                    <input onkeyup="machinewrite()" type="text" class="form-control" placeholder="">
+                                    <input type="text" class="form-control" placeholder="">
                                 </div> <!-- form-group end.// -->
                                 <div class="col form-group">
                                     <label>Last name</label>
@@ -78,7 +78,7 @@
                                 <input class="form-control" type="password">
                             </div> <!-- form-group end.// -->
                             <div class="form-group">
-                                <button onclick="machinewrite()" type="submit" class="btn btn-primary btn-block"> Register </button>
+                                <button onsubmit="register()" type="submit" class="btn btn-primary btn-block"> Register </button>
                             </div> <!-- form-group// -->
                             <small class="text-muted">By clicking the 'Sign Up' button, you confirm that you accept our
                                 <br> Terms of use and Privacy Policy.</small>
