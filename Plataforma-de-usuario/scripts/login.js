@@ -1,6 +1,16 @@
 
 // Sound at Typing
-function type() {
-var audio = new Audio('audio_file.mp3');
-audio.play();
-}
+
+
+function login() {
+        location.href ='../dashboard/dashboard.html';
+        console.log("funciona");
+    }
+
+
+
+
+function load() {
+        var audio = new Audio('../assets/mp3/write.mp3');
+        audio.play();
+        }
