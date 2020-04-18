@@ -1,0 +1,18 @@
+.aside-nav {
+  position: fixed; height: 100vh; width: 0;
+}
+
+.fa {
+    color: gray;
+    justify-content: center;
+} 
+
+
+
+.fa-lightbulb {
+    font-size: 15px;
+}
+
+.fa-shopping-bag {
+    font-size: 15px;
+}
